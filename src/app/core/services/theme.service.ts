@@ -9,21 +9,27 @@ export class ThemeService {
   public theme = signal<Theme>({ mode: 'dark', color: 'base' });
 
   constructor() {
-    this.loadTheme();
-    effect(() => {
-      this.setTheme();
-    });
+    if (this.isLocalStorageAvailable()) {
+      this.loadTheme();
+      effect(() => {
+        this.setTheme();
+      });
+    }
   }
 
   private loadTheme() {
-    const theme = localStorage.getItem('theme');
-    if (theme) {
-      this.theme.set(JSON.parse(theme));
+    if (this.isLocalStorageAvailable()) {
+      const theme = localStorage.getItem('theme');
+      if (theme) {
+        this.theme.set(JSON.parse(theme));
+      }
     }
   }
 
   private setTheme() {
-    localStorage.setItem('theme', JSON.stringify(this.theme()));
+    if (this.isLocalStorageAvailable()) {
+      localStorage.setItem('theme', JSON.stringify(this.theme()));
+    }
     this.setThemeClass();
   }
 
@@ -34,5 +40,16 @@ export class ThemeService {
   private setThemeClass() {
     document.querySelector('html')!.className = this.theme().mode;
     document.querySelector('html')!.setAttribute('data-theme', this.theme().color);
+  }
+
+  private isLocalStorageAvailable(): boolean {
+    try {
+      const test = '__localStorageTest__';
+      localStorage.setItem(test, test);
+      localStorage.removeItem(test);
+      return true;
+    } catch (e) {
+      return false;
+    }
   }
 }
