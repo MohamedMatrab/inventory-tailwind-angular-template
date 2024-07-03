@@ -1,6 +1,7 @@
 {
   "name": "inventory-meat-angular",
   "version": "0.0.0",
+  "displayName": "Gestion De Stock",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",

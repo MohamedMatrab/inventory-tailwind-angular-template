@@ -3,14 +3,14 @@ import { MenuItem } from '../models/menu.model';
 export class Menu {
   public static pages: MenuItem[] = [
     {
-      group: 'Base',
+      group: 'Accueil',
       separator: false,
       items: [
         {
-          icon: 'assets/icons/heroicons/outline/chart-pie.svg',
+          icon: 'assets/icons/heroicons/outline/home.svg',
           label: 'Accueil',
-          route: '/dashboard',
-        },
+          route: '/home',
+        }
       ],
     },
     {
@@ -18,40 +18,64 @@ export class Menu {
       separator: true,
       items: [
         {
-          icon: 'assets/icons/heroicons/outline/download.svg',
+          icon: 'assets/icons/heroicons/outline/cube.svg',
           label: 'Articles',
           route: '/download',
         },
         {
-          icon: 'assets/icons/heroicons/outline/gift.svg',
+          icon: 'assets/icons/heroicons/outline/rectangle-group.svg',
           label: "Groupe d'articles",
           route: '/gift',
         }
-      ],
+      ]
     },
     {
       group: 'Ventes',
-      separator: false,
+      separator: true,
       items: [
         {
-          icon: 'assets/icons/heroicons/outline/cog.svg',
-          label: 'Settings',
-          route: '/settings',
+          icon: 'assets/icons/heroicons/outline/user.svg',
+          label: 'Clients',
+          route: '/clients',
         },
         {
-          icon: 'assets/icons/heroicons/outline/bell.svg',
-          label: 'Notifications',
+          icon: 'assets/icons/heroicons/outline/document-arrow-down.svg',
+          label: 'Commandes',
           route: '/gift',
         },
         {
-          icon: 'assets/icons/heroicons/outline/folder.svg',
-          label: 'Folders',
-          route: '/folders',
+          icon: 'assets/icons/heroicons/outline/document-duplicate.svg',
+          label: 'Facturation',
+          route: '/invoices',
           children: [
-            { label: 'Current Files', route: '/folders/current-files' },
-            { label: 'Downloads', route: '/folders/download' },
-            { label: 'Trash', route: '/folders/trash' },
-          ],
+            { label: 'Factures', route: '/folders/current-files' },
+            { label: 'Factures d\'avoirs', route: '/folders/download' },
+          ]
+        },
+      ],
+    },
+    {
+      group: 'Achats',
+      separator: false,
+      items: [
+        {
+          icon: 'assets/icons/heroicons/outline/user.svg',
+          label: 'Fournisseurs',
+          route: '/suppliers',
+        },
+        {
+          icon: 'assets/icons/heroicons/outline/document-arrow-down.svg',
+          label: 'Bons de Commande',
+          route: '/supplier-orders',
+        },
+        {
+          icon: 'assets/icons/heroicons/outline/document-duplicate.svg',
+          label: 'Facturation',
+          route: '/sell-invoices',
+          children: [
+            { label: 'Factures', route: '/sell-invoices/invoices' },
+            { label: 'Factures d\'avoirs', route: '/sell-invoices/credit-invoices' },
+          ]
         },
       ],
     },
