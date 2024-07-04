@@ -1,0 +1,86 @@
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" target-language="fr" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="2821179408673282599" datatype="html">
+        <source>Home</source>
+        <target state="new">Accueil</target>
+      </trans-unit>
+      <trans-unit id="3010057485486897763" datatype="html">
+        <source>Inventory</source>
+        <target state="new">Inventaire</target>
+      </trans-unit>
+      <trans-unit id="5539833462297888878" datatype="html">
+        <source>Articles</source>
+        <target state="new">Articles</target>
+      </trans-unit>
+      <trans-unit id="3927359732265739878" datatype="html">
+        <source>Item Groups</source>
+        <target state="new">Groupes d&apos;articles</target>
+      </trans-unit>
+      <trans-unit id="4916040035419741293" datatype="html">
+        <source>Sells</source>
+        <target state="new">Ventes</target>
+      </trans-unit>
+      <trans-unit id="5910845130937645353" datatype="html">
+        <source>Clients</source>
+        <target state="new">Clients</target>
+      </trans-unit>
+      <trans-unit id="6575195871133210332" datatype="html">
+        <source>Orders</source>
+        <target state="new">Commandes</target>
+      </trans-unit>
+      <trans-unit id="5875130684997376720" datatype="html">
+        <source>Billing</source>
+        <target state="new">Facturation</target>
+      </trans-unit>
+      <trans-unit id="2363158409383485440" datatype="html">
+        <source>Invoices</source>
+        <target state="new">Factures</target>
+      </trans-unit>
+      <trans-unit id="3655004198055389014" datatype="html">
+        <source>Credit invoices</source>
+        <target state="new">Avoirs</target>
+      </trans-unit>
+      <trans-unit id="4605182765589041162" datatype="html">
+        <source>Purchases</source>
+        <target state="new">Achats</target>
+      </trans-unit>
+      <trans-unit id="5112140214805944566" datatype="html">
+        <source>Suppliers</source>
+        <target state="new">Fournisseurs</target>
+      </trans-unit>
+      <trans-unit id="8447706167968343107" datatype="html">
+        <source>Purchase orders</source>
+        <target state="new">Bons de Commandes</target>
+      </trans-unit>
+      <trans-unit id="3496181279436331299" datatype="html">
+        <source>Your Profile</source>
+        <target state="new">Votre profil</target>
+      </trans-unit>
+      <trans-unit id="4930506384627295710" datatype="html">
+        <source>Settings</source>
+        <target state="new">Paramètres</target>
+      </trans-unit>
+      <trans-unit id="7507948636555938109" datatype="html">
+        <source>Log out</source>
+        <target state="new">Déconnexion</target>
+      </trans-unit>
+      <trans-unit id="7999347504949916642" datatype="html">
+        <source> Inventory Management </source>
+        <target state="new"> Gestion De Stock </target>
+      </trans-unit>
+      <trans-unit id="1713271461473302108" datatype="html">
+        <source>Mode</source>
+        <target state="new">Mode</target>
+      </trans-unit>
+      <trans-unit id="2770166870006762730" datatype="html">
+        <source>light</source>
+        <target state="new">light</target>
+      </trans-unit>
+      <trans-unit id="8262108640078645269" datatype="html">
+        <source>dark</source>
+        <target state="new">dark</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -3,78 +3,78 @@ import { MenuItem } from '../models/menu.model';
 export class Menu {
   public static pages: MenuItem[] = [
     {
-      group: 'Accueil',
+      group: $localize`Home`,
       separator: false,
       items: [
         {
           icon: 'assets/icons/heroicons/outline/home.svg',
-          label: 'Accueil',
+          label: $localize`Home`,
           route: '/home',
         }
       ],
     },
     {
-      group: 'Inventaire',
+      group: $localize`Inventory`,
       separator: true,
       items: [
         {
           icon: 'assets/icons/heroicons/outline/cube.svg',
-          label: 'Articles',
+          label: $localize`Articles`,
           route: '/download',
         },
         {
           icon: 'assets/icons/heroicons/outline/rectangle-group.svg',
-          label: "Groupe d'articles",
+          label: $localize`Item Groups`,
           route: '/gift',
         }
       ]
     },
     {
-      group: 'Ventes',
+      group: $localize`Sells`,
       separator: true,
       items: [
         {
           icon: 'assets/icons/heroicons/outline/user.svg',
-          label: 'Clients',
+          label: $localize`Clients`,
           route: '/clients',
         },
         {
           icon: 'assets/icons/heroicons/outline/document-arrow-down.svg',
-          label: 'Commandes',
+          label:  $localize`Orders`,
           route: '/gift',
         },
         {
           icon: 'assets/icons/heroicons/outline/document-duplicate.svg',
-          label: 'Facturation',
-          route: '/invoices',
+          label: $localize`Billing`,
+          route: '/billing',
           children: [
-            { label: 'Factures', route: '/folders/current-files' },
-            { label: 'Factures d\'avoirs', route: '/folders/download' },
+            { label: $localize`Invoices`, route: '/billing/invoices' },
+            { label: $localize`Credit invoices`, route: '/billing/credit-invoices' },
           ]
         },
       ],
     },
     {
-      group: 'Achats',
+      group: $localize`Purchases`,
       separator: false,
       items: [
         {
           icon: 'assets/icons/heroicons/outline/user.svg',
-          label: 'Fournisseurs',
+          label: $localize`Suppliers`,
           route: '/suppliers',
         },
         {
-          icon: 'assets/icons/heroicons/outline/document-arrow-down.svg',
-          label: 'Bons de Commande',
-          route: '/supplier-orders',
+          icon: 'assets/icons/heroicons/outline/document-arrow-up.svg',
+          label: $localize`Purchase orders`,
+          route: '/purchase-orders',
         },
         {
           icon: 'assets/icons/heroicons/outline/document-duplicate.svg',
-          label: 'Facturation',
+          label: $localize`Billing`,
           route: '/sell-invoices',
           children: [
-            { label: 'Factures', route: '/sell-invoices/invoices' },
-            { label: 'Factures d\'avoirs', route: '/sell-invoices/credit-invoices' },
+            { label: $localize`Invoices`, route: '/sell-invoices/invoices' },
+            { label: $localize`Credit invoices`, route: '/sell-invoices/credit-invoices' },
           ]
         },
       ],

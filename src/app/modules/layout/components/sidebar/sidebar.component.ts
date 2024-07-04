@@ -5,6 +5,7 @@ import { RouterLink } from '@angular/router';
 import { SidebarMenuComponent } from './sidebar-menu/sidebar-menu.component';
 import { AngularSvgIconModule } from 'angular-svg-icon';
 import { NgClass, NgIf } from '@angular/common';
+import {appTitle} from "../../../../core/constants/app-infos";
 
 @Component({
   selector: 'app-sidebar',
@@ -23,4 +24,6 @@ export class SidebarComponent implements OnInit {
   public toggleSidebar() {
     this.menuService.toggleSidebar();
   }
+
+    protected readonly appTitle = appTitle;
 }

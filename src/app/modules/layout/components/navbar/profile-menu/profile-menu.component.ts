@@ -39,17 +39,17 @@ export class ProfileMenuComponent implements OnInit {
   public isOpen = false;
   public profileMenu = [
     {
-      title: 'Your Profile',
+      title: $localize`Your Profile`,
       icon: './assets/icons/heroicons/outline/user-circle.svg',
       link: '/profile',
     },
     {
-      title: 'Settings',
+      title: $localize`Settings`,
       icon: './assets/icons/heroicons/outline/cog-6-tooth.svg',
       link: '/settings',
     },
     {
-      title: 'Log out',
+      title: $localize`Log out`,
       icon: './assets/icons/heroicons/outline/logout.svg',
       link: '/auth',
     },
@@ -86,7 +86,8 @@ export class ProfileMenuComponent implements OnInit {
     },
   ];
 
-  public themeMode = ['light', 'dark'];
+  public themeMode = [$localize`light`, $localize`dark`];
+  public themeModeEng = [`light`,`dark`];
 
   constructor(public themeService: ThemeService) {}
 

@@ -3,6 +3,7 @@ import { MenuService } from '../../../services/menu.service';
 import { NavbarMobileMenuComponent } from './navbar-mobile-menu/navbar-mobile-menu.component';
 import { AngularSvgIconModule } from 'angular-svg-icon';
 import { NgClass } from '@angular/common';
+import {appTitle} from "../../../../../core/constants/app-infos";
 
 @Component({
     selector: 'app-navbar-mobile',
@@ -23,4 +24,6 @@ export class NavbarMobileComponent implements OnInit {
   public toggleMobileMenu(): void {
     this.menuService.showMobileMenu = false;
   }
+
+    protected readonly appTitle = appTitle;
 }

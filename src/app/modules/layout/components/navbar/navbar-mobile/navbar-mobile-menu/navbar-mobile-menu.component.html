@@ -26,11 +26,11 @@
         <ng-template #parentMenu let-item="item">
           <div
             routerLink="{{ item.route }}"
-            class="flex h-9 cursor-pointer items-center justify-start rounded hover:bg-card">
+            class="flex flex-row h-9 cursor-pointer items-center justify-start rounded hover:bg-card">
             <a
               routerLinkActive="text-primary"
               (click)="closeMenu()"
-              class="ml-10 truncate text-xs font-semibold tracking-wide focus:outline-none">
+              class="ltr:ml-10 rtl:mr-10 truncate text-xs font-semibold tracking-wide focus:outline-none">
               {{ item.label }}
             </a>
           </div>
@@ -38,8 +38,8 @@
 
         <!-- Workaround:: Disable routerLink -->
         <ng-template #childMenu let-item="item">
-          <div class="flex h-9 cursor-pointer items-center justify-start rounded hover:bg-card">
-            <a class="ml-10 truncate text-xs font-semibold tracking-wide focus:outline-none">
+          <div class="flex flex-row h-9 cursor-pointer items-center justify-start rounded hover:bg-card">
+            <a class="rtl:mr-10 ltr:ml-10 truncate text-xs font-semibold tracking-wide focus:outline-none">
               {{ item.label }}
             </a>
           </div>
@@ -48,9 +48,9 @@
         <!-- Arrow Icon -->
         <button
           *ngIf="item.children"
-          [ngClass]="{ hidden: !menuService.showSideBar, 'rotate-90': item.expanded }"
-          class="pointer-events-none absolute top-1 right-0 flex items-center p-1 text-muted-foreground/50 transition-all duration-500">
-          <svg-icon src="assets/icons/heroicons/solid/chevron-right.svg" [svgClass]="'h-5 w-5'"> </svg-icon>
+          [ngClass]="{ hidden: !menuService.showSideBar, 'ltr:rotate-90 rtl:-rotate-90': item.expanded }"
+          class="pointer-events-none absolute top-1 ltr:right-0 rtl:left-0 flex items-center p-1 text-muted-foreground/50 transition-all duration-500">
+          <svg-icon class="rtl:scale-x-[-1]" src="assets/icons/heroicons/solid/chevron-right.svg" [svgClass]="'h-5 w-5'"> </svg-icon>
         </button>
       </div>
 

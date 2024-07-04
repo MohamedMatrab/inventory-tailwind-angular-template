@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="2363158409383485440" datatype="html">
+        <source>Invoices</source>
+      </trans-unit>
+      <trans-unit id="2821179408673282599" datatype="html">
+        <source>Home</source>
+      </trans-unit>
+      <trans-unit id="3010057485486897763" datatype="html">
+        <source>Inventory</source>
+      </trans-unit>
+      <trans-unit id="3496181279436331299" datatype="html">
+        <source>Your Profile</source>
+      </trans-unit>
+      <trans-unit id="3655004198055389014" datatype="html">
+        <source>Credit invoices</source>
+      </trans-unit>
+      <trans-unit id="3927359732265739878" datatype="html">
+        <source>Item Groups</source>
+      </trans-unit>
+      <trans-unit id="4605182765589041162" datatype="html">
+        <source>Purchases</source>
+      </trans-unit>
+      <trans-unit id="4916040035419741293" datatype="html">
+        <source>Sells</source>
+      </trans-unit>
+      <trans-unit id="4930506384627295710" datatype="html">
+        <source>Settings</source>
+      </trans-unit>
+      <trans-unit id="5112140214805944566" datatype="html">
+        <source>Suppliers</source>
+      </trans-unit>
+      <trans-unit id="5539833462297888878" datatype="html">
+        <source>Articles</source>
+      </trans-unit>
+      <trans-unit id="5875130684997376720" datatype="html">
+        <source>Billing</source>
+      </trans-unit>
+      <trans-unit id="5910845130937645353" datatype="html">
+        <source>Clients</source>
+      </trans-unit>
+      <trans-unit id="6575195871133210332" datatype="html">
+        <source>Orders</source>
+      </trans-unit>
+      <trans-unit id="7507948636555938109" datatype="html">
+        <source>Log out</source>
+      </trans-unit>
+      <trans-unit id="8447706167968343107" datatype="html">
+        <source>Purchase orders</source>
+      </trans-unit>
+      <trans-unit id="7999347504949916642" datatype="html">
+        <source> Inventory Management </source>
+      </trans-unit>
+      <trans-unit id="1713271461473302108" datatype="html">
+        <source>Mode</source>
+      </trans-unit>
+      <trans-unit id="2770166870006762730" datatype="html">
+        <source>light</source>
+      </trans-unit>
+      <trans-unit id="8262108640078645269" datatype="html">
+        <source>dark</source>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -23,10 +23,10 @@
             <a class="flex items-center justify-center rounded bg-primary p-2 focus:outline-none focus:ring-1">
               <svg-icon src="assets/icons/logo.svg"> </svg-icon>
             </a>
-            <b class="pl-3 text-sm font-bold text-foreground"> Angular Tailwind </b>
+            <b class="ltr:pl-3 rtl:pr-3 text-sm font-bold text-foreground">{{appTitle}}</b>
           </div>
         </div>
-        <div class="-mr-2">
+        <div class="ltr:-mr-2 rtl:-ml-2">
           <button
             (click)="toggleMobileMenu()"
             type="button"
