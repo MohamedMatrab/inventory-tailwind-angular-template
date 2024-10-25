@@ -36,7 +36,7 @@ export class Menu {
         {
           icon: 'assets/icons/heroicons/outline/user.svg',
           label: $localize`Clients`,
-          route: '/clients',
+          route: '/sells/clients',
         },
         {
           icon: 'assets/icons/heroicons/outline/document-arrow-down.svg',
@@ -46,10 +46,9 @@ export class Menu {
         {
           icon: 'assets/icons/heroicons/outline/document-duplicate.svg',
           label: $localize`Billing`,
-          route: '/billing',
           children: [
-            { label: $localize`Invoices`, route: '/billing/invoices' },
-            { label: $localize`Credit invoices`, route: '/billing/credit-invoices' },
+            { label: $localize`Invoices`, route: '/sells/invoices' },
+            { label: $localize`Credit invoices`, route: '/sells/credit-invoices' },
           ]
         },
       ],

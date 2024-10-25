@@ -50,9 +50,6 @@
       <trans-unit id="8447706167968343107" datatype="html">
         <source>Purchase orders</source>
       </trans-unit>
-      <trans-unit id="7999347504949916642" datatype="html">
-        <source> Inventory Management </source>
-      </trans-unit>
       <trans-unit id="1713271461473302108" datatype="html">
         <source>Mode</source>
       </trans-unit>
@@ -61,6 +58,42 @@
       </trans-unit>
       <trans-unit id="8262108640078645269" datatype="html">
         <source>dark</source>
+      </trans-unit>
+      <trans-unit id="2106408614151600460" datatype="html">
+        <source>Refunded</source>
+      </trans-unit>
+      <trans-unit id="3014142150963657456" datatype="html">
+        <source>Client</source>
+      </trans-unit>
+      <trans-unit id="3885497195825665706" datatype="html">
+        <source>Next</source>
+      </trans-unit>
+      <trans-unit id="3973931101896534797" datatype="html">
+        <source>Date</source>
+      </trans-unit>
+      <trans-unit id="4043049091728011235" datatype="html">
+        <source>Cancelled</source>
+      </trans-unit>
+      <trans-unit id="4416413576346763682" datatype="html">
+        <source>Pending</source>
+      </trans-unit>
+      <trans-unit id="4452427314943113135" datatype="html">
+        <source>Previous</source>
+      </trans-unit>
+      <trans-unit id="5611592591303869712" datatype="html">
+        <source>Status</source>
+      </trans-unit>
+      <trans-unit id="6533918067030990396" datatype="html">
+        <source>Amount</source>
+      </trans-unit>
+      <trans-unit id="7798707739683958804" datatype="html">
+        <source>Order Number</source>
+      </trans-unit>
+      <trans-unit id="8282940047848889809" datatype="html">
+        <source>Paid</source>
+      </trans-unit>
+      <trans-unit id="8602672291275743005" datatype="html">
+        <source>Invoice Number</source>
       </trans-unit>
     </body>
   </file>

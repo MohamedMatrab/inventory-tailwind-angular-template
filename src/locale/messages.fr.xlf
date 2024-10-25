@@ -65,10 +65,6 @@
         <source>Log out</source>
         <target state="new">Déconnexion</target>
       </trans-unit>
-      <trans-unit id="7999347504949916642" datatype="html">
-        <source> Inventory Management </source>
-        <target state="new"> Gestion De Stock </target>
-      </trans-unit>
       <trans-unit id="1713271461473302108" datatype="html">
         <source>Mode</source>
         <target state="new">Mode</target>
@@ -80,6 +76,54 @@
       <trans-unit id="8262108640078645269" datatype="html">
         <source>dark</source>
         <target state="new">dark</target>
+      </trans-unit>
+      <trans-unit id="8602672291275743005" datatype="html">
+        <source>Invoice Number</source>
+        <target state="new">Invoice Number</target>
+      </trans-unit>
+      <trans-unit id="3973931101896534797" datatype="html">
+        <source>Date</source>
+        <target state="new">Date</target>
+      </trans-unit>
+      <trans-unit id="5611592591303869712" datatype="html">
+        <source>Status</source>
+        <target state="new">Status</target>
+      </trans-unit>
+      <trans-unit id="3014142150963657456" datatype="html">
+        <source>Client</source>
+        <target state="new">Client</target>
+      </trans-unit>
+      <trans-unit id="6533918067030990396" datatype="html">
+        <source>Amount</source>
+        <target state="new">Amount</target>
+      </trans-unit>
+      <trans-unit id="7798707739683958804" datatype="html">
+        <source>Order Number</source>
+        <target state="new">Order Number</target>
+      </trans-unit>
+      <trans-unit id="3885497195825665706" datatype="html">
+        <source>Next</source>
+        <target state="new">Next</target>
+      </trans-unit>
+      <trans-unit id="4452427314943113135" datatype="html">
+        <source>Previous</source>
+        <target state="new">Previous</target>
+      </trans-unit>
+      <trans-unit id="8282940047848889809" datatype="html">
+        <source>Paid</source>
+        <target state="new">Paid</target>
+      </trans-unit>
+      <trans-unit id="2106408614151600460" datatype="html">
+        <source>Refunded</source>
+        <target state="new">Refunded</target>
+      </trans-unit>
+      <trans-unit id="4043049091728011235" datatype="html">
+        <source>Cancelled</source>
+        <target state="new">Cancelled</target>
+      </trans-unit>
+      <trans-unit id="4416413576346763682" datatype="html">
+        <source>Pending</source>
+        <target state="new">Pending</target>
       </trans-unit>
     </body>
   </file>
